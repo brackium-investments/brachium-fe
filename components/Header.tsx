@@ -12,14 +12,14 @@ const Header = () => {
   console.log(pathname.slice(9));
 
   return (
-    <header className="bg-header bg-no-repeat bg-cover bg-center flex px-[5rem] items-center">
+    <header className="bg-header bg-no-repeat bg-cover bg-center flex px-[5rem] items-center font-nunito ">
       <Image
         src={logo}
         alt="logo"
         priority
         width={100}
         height={100}
-        className="w-[15rem] h-[10rem]"
+        className="w-[15rem] h-[8rem]"
       />
       <nav className="ml-auto">
         <div className="flex items-center">
@@ -50,7 +50,7 @@ const Header = () => {
               type="button"
               className="border border-color-gold text-color-white bg-color-gold rounded-lg px-[1rem] py-[0.5rem] text-[1.7rem] hover:text-color-gold hover:bg-color-transparent transition-all duration-150 ease-in"
             >
-              Sign up
+              Register
             </button>
           </div>
         </div>

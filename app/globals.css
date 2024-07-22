@@ -27,3 +27,8 @@ img {
 input[type="text"] {
   font-size: 16px !important;
 }
+
+h1.brackium {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
