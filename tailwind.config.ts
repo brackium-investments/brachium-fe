@@ -22,6 +22,9 @@ const config: Config = {
         header: "url('../assets/header-bg.jpeg')",
         "main-1": "url('../assets/plan-bg1.jpeg')",
       },
+      gridTemplateColumns: {
+        "plan-grid": "repeat(auto-fit, minmax(30rem, 1fr))",
+      },
     },
   },
   plugins: [],
