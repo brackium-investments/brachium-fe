@@ -1,7 +1,7 @@
 "use client";
 import { getLatestCryptoCurData } from "@/services/cryptoDataService";
 import React, { useEffect, useState } from "react";
-import { filterCoins } from "./utils/helper-functions";
+import { filterCoins } from "../utils/helper-functions";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";

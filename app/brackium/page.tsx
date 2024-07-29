@@ -5,12 +5,10 @@ import bannerCoin from "../../assets/banner-coin.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import InvestmentPlans from "@/components/home/InvestmentPlans";
-import CryptoDataList from "@/components/CryptoDataList";
+import CryptoDataList from "@/components/home/CryptoDataList";
+import WhyChooseUs from "@/components/home/WhyChooseUs";
 
 const page = () => {
-  const btnClassName =
-    "px-[1.5rem] py-[0.5rem] border border-color-gold rounded-lg bg-color-transparent hover:bg-color-gold hover:text-color-white text-color-gold text-[1.8rem] font-medium mr-[2rem]";
-
   return (
     <div>
       <section className="bg-main-1 bg-no-repeat bg-cover bg-center py-[10rem] flex px-[5rem] items-center">
@@ -26,14 +24,6 @@ const page = () => {
             profitable algorithmic robots to conduct multiple transactions for
             global customers in a short period of time and bring stable profits.
           </p>
-          {/* <div className="mt-[3rem]">
-          <button type="button" className={btnClassName}>
-            Login
-          </button>
-          <button type="button" className={btnClassName}>
-            Register
-          </button>
-        </div> */}
         </div>
         <div className="relative">
           <Image src={baner3} alt="baner" priority className="" />
@@ -48,6 +38,7 @@ const page = () => {
       </section>
       <InvestmentPlans />
       <CryptoDataList />
+      <WhyChooseUs />
     </div>
   );
 };

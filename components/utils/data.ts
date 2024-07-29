@@ -1,4 +1,8 @@
-import { title } from "process";
+import { StaticImageData } from "next/image";
+import whyus1 from "../../assets/why-us-1.png";
+import whyus2 from "../../assets/why-us-2.png";
+import whyus3 from "../../assets/why-us-3.png";
+import whyus4 from "../../assets/why-us-4.png";
 
 export const landingPageNavLinks: { text: string; link: string }[] = [
   {
@@ -79,5 +83,32 @@ export const investmentPlans = [
     minDeposit: 110000,
     maxDeposit: "UNLIMITED",
     referralBonus: 40,
+  },
+];
+
+export const whyChooseUsData: {
+  img: StaticImageData;
+  title: string;
+  text: string;
+}[] = [
+  {
+    img: whyus1,
+    title: "Guaranteed profit",
+    text: "By leveraging modern technologies and harnessing their full potential, we provide enhanced opportunities for achieving a stable and sustainable high income.",
+  },
+  {
+    img: whyus2,
+    title: "Comprehensive customer support",
+    text: "Lucrative Capital Customer Support is available 24/7 to assist you with any questions or issues via live chat and other social media platforms.",
+  },
+  {
+    img: whyus3,
+    title: "Instant Withdrawal",
+    text: "Our withdrawals are processed instantly upon request to your preferred payment processor.",
+  },
+  {
+    img: whyus4,
+    title: "Financial security",
+    text: "Upon request, our withdrawals are swiftly processed to your chosen payment processor.",
   },
 ];

@@ -24,6 +24,7 @@ const config: Config = {
       },
       gridTemplateColumns: {
         "plan-grid": "repeat(auto-fit, minmax(30rem, 1fr))",
+        "why-us-grid": "repeat(auto-fit, minmax(30rem, 1fr))",
       },
     },
   },
