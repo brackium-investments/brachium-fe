@@ -3,6 +3,10 @@ import whyus1 from "../../assets/why-us-1.png";
 import whyus2 from "../../assets/why-us-2.png";
 import whyus3 from "../../assets/why-us-3.png";
 import whyus4 from "../../assets/why-us-4.png";
+import feed1 from "../../assets/feed-img1.png";
+import feed2 from "../../assets/feed-img2.png";
+import feed3 from "../../assets/feed-img3.png";
+import feed4 from "../../assets/feed-img4.png";
 
 export const landingPageNavLinks: { text: string; link: string }[] = [
   {
@@ -110,5 +114,37 @@ export const whyChooseUsData: {
     img: whyus4,
     title: "Financial security",
     text: "Upon request, our withdrawals are swiftly processed to your chosen payment processor.",
+  },
+];
+
+export const customerFeedback: {
+  img: StaticImageData;
+  firstName: string;
+  lastName: string;
+  text: string;
+}[] = [
+  {
+    img: feed1,
+    firstName: "John",
+    lastName: "L. Cooley",
+    text: "Instant payment, good customer service, stable income, brackium is my best choice for investment.Highly recommended!",
+  },
+  {
+    img: feed2,
+    firstName: "Robert",
+    lastName: "C. Wilson",
+    text: "I have been investing in brackium since July 2021. By using compound interest, I have doubled my initial investment by December 2021. Very good income, my earnings are still growing！",
+  },
+  {
+    img: feed3,
+    firstName: "Earl",
+    lastName: "M. Perez",
+    text: "This program seems to be well done. The plan is also stable. I decided to invest $1500 here and test the waters from now. Withdrawals are also paid instantly.",
+  },
+  {
+    img: feed4,
+    firstName: "Christopher",
+    lastName: "J. Bouffard",
+    text: "Brackium is the best project I have invested in, the withdrawals are incredibly instant and they have a pretty good support, I really recommend them.",
   },
 ];

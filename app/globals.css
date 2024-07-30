@@ -32,3 +32,9 @@ input[type="text"] {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.slick-arrow,
+.slick-next,
+.slick-prev {
+  display: none !important;
+}

@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import InvestmentPlans from "@/components/home/InvestmentPlans";
 import CryptoDataList from "@/components/home/CryptoDataList";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import CustomerFeedback from "@/components/home/CustomerFeedback";
 
 const page = () => {
   return (
@@ -39,6 +40,7 @@ const page = () => {
       <InvestmentPlans />
       <CryptoDataList />
       <WhyChooseUs />
+      <CustomerFeedback />
     </div>
   );
 };

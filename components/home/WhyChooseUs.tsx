@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
       <h2 className="mb-[1.5rem] text-[3rem] text-color-gold text-center font-semibold">
         Why Choose Us
       </h2>
-      <div className="py-[5rem] grid grid-cols-2 gap-[5rem] px-[10rem]">
+      <div className="py-[5rem] grid grid-cols-2 gap-x-[5rem] gap-y-[8rem] px-[10rem]">
         {whyChooseUsData.map(
           (
             data: { img: StaticImageData; title: string; text: string },

@@ -53,7 +53,7 @@ const CryptoDataList = () => {
                     priority
                     width={200}
                     height={200}
-                    className="w-[8rem] h-[8rem] rounded-full"
+                    className="w-[8rem] h-[8rem] rounded-full bg-color-white"
                   />
                   <div className="ml-[1rem] text-color-gold">
                     <p className="font-medium">{coin.name}</p>
