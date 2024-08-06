@@ -20,6 +20,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         header: "url('../assets/header-bg.jpeg')",
+        footer: "url('../assets/footer-bg.jpeg')",
         "main-1": "url('../assets/plan-bg1.jpeg')",
       },
       gridTemplateColumns: {

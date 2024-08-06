@@ -7,6 +7,16 @@ import feed1 from "../../assets/feed-img1.jpg";
 import feed2 from "../../assets/feed-img2.jpg";
 import feed3 from "../../assets/feed-img3.jpg";
 import feed4 from "../../assets/feed-img4.jpg";
+import footerImg1 from "../../assets/pay1.png";
+import footerImg2 from "../../assets/pay2.png";
+import footerImg3 from "../../assets/pay3.png";
+import footerImg4 from "../../assets/pay4.png";
+import footerImg5 from "../../assets/pay5.png";
+import footerImg6 from "../../assets/pay6.png";
+import footerImg7 from "../../assets/pay7.png";
+import footerImg8 from "../../assets/pay8.png";
+import footerImg9 from "../../assets/pay9.png";
+import footerImg10 from "../../assets/pay10.png";
 
 export const landingPageNavLinks: { text: string; link: string }[] = [
   {
@@ -133,7 +143,7 @@ export const customerFeedback: {
     img: feed2,
     firstName: "Robert",
     lastName: "C. Wilson",
-    text: "I have been investing in brackium since July 2021. By using compound interest, I have doubled my initial investment by December 2021. Very good income, my earnings are still growing！",
+    text: "I have been investing in brackium since July 2023. By using compound interest, I have doubled my initial investment by December 2023. Very good income, my earnings are still growing！",
   },
   {
     img: feed3,
@@ -147,4 +157,17 @@ export const customerFeedback: {
     lastName: "J. Bouffard",
     text: "Brackium is the best project I have invested in, the withdrawals are incredibly instant and they have a pretty good support, I really recommend them.",
   },
+];
+
+export const footerImgs = [
+  footerImg1,
+  footerImg2,
+  footerImg3,
+  footerImg4,
+  footerImg5,
+  footerImg6,
+  footerImg7,
+  footerImg8,
+  footerImg9,
+  footerImg10,
 ];
