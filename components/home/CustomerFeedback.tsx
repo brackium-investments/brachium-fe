@@ -2,6 +2,7 @@
 import React from "react";
 import { customerFeedback } from "../utils/data";
 import Image, { StaticImageData } from "next/image";
+import { motion } from "framer-motion";
 
 const CustomerFeedback = () => {
   return (
@@ -11,15 +12,22 @@ const CustomerFeedback = () => {
       </h2>
       <div className="py-[5rem] flex flex-wrap justify-center">
         {customerFeedback.map(
-          (feedback: {
-            img: StaticImageData;
-            firstName: string;
-            lastName: string;
-            text: string;
-          }) => (
-            <div
+          (
+            feedback: {
+              img: StaticImageData;
+              firstName: string;
+              lastName: string;
+              text: string;
+            },
+            i: number
+          ) => (
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, ease: "easeIn", delay: 0.15 * i }}
               key={feedback.firstName}
-              className="flex flex-col bg-color-blue py-[5rem] w-[30rem] mr-[2rem] last:mr-0 items-center text-center p-[1rem]"
+              className="flex flex-col bg-color-blue py-[5rem] w-[30rem] mr-[2rem] last:mr-0 items-center text-center p-[1rem] rounded-xl"
             >
               <Image
                 src={feedback.img}
@@ -27,7 +35,7 @@ const CustomerFeedback = () => {
                 priority
                 width={200}
                 height={200}
-                className="w-[20rem] h-[15rem]"
+                className="w-[13rem] h-[13rem] rounded-full"
               />
               <p className="my-[1.5rem] text-color-white">{feedback.text}</p>
               <div className="mt-auto">
@@ -36,7 +44,7 @@ const CustomerFeedback = () => {
                 </p>
                 <p className="text-color-white">{feedback.lastName}</p>
               </div>
-            </div>
+            </motion.div>
           )
         )}
       </div>
