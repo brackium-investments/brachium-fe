@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import mapImg from "../../assets/map.png";
 import Image from "next/image";
 import Stats from "./Stats";
+import Referral from "./Referral";
 
 const About = () => {
   useEffect(() => {
@@ -52,6 +53,7 @@ const About = () => {
         </div>
       </div>
       <Stats />
+      <Referral />
     </section>
   );
 };

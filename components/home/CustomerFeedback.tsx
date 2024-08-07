@@ -35,7 +35,7 @@ const CustomerFeedback = () => {
                 priority
                 width={200}
                 height={200}
-                className="w-[13rem] h-[13rem] rounded-full"
+                className="w-[12rem] h-[12rem] rounded-full"
               />
               <p className="my-[1.5rem] text-color-white">{feedback.text}</p>
               <div className="mt-auto">

@@ -113,7 +113,7 @@ export const whyChooseUsData: {
   {
     img: whyus2,
     title: "Comprehensive customer support",
-    text: "Lucrative Capital Customer Support is available 24/7 to assist you with any questions or issues via live chat and other social media platforms.",
+    text: "Brackium Customer Support is available 24/7 to assist you with any questions or issues via live chat and other social media platforms.",
   },
   {
     img: whyus3,
