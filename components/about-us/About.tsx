@@ -3,13 +3,14 @@
 import React, { useEffect } from "react";
 import mapImg from "../../assets/map.png";
 import Image from "next/image";
+import Stats from "./Stats";
 
 const About = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
   return (
-    <div className="min-h-screen bg-color-white font-nunito">
+    <section className="min-h-screen bg-color-white font-nunito">
       <div className="flex p-[5rem] justify-between">
         <div className="w-[45%] text-color-blue">
           <h2 className="text-color-gold text-[3rem] font-semibold mb-[1rem]">
@@ -50,7 +51,8 @@ const About = () => {
           <Image src={mapImg} alt="image of a map of the world" priority />
         </div>
       </div>
-    </div>
+      <Stats />
+    </section>
   );
 };
 

@@ -27,12 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${nunito.variable} ${dmSans.variable}`}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      </body>
-    </html>
+    <div>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </div>
   );
 }

@@ -171,3 +171,9 @@ export const footerImgs = [
   footerImg9,
   footerImg10,
 ];
+
+export function getRandomInt(min: number, max: number) {
+  min = Math.ceil(min); // Ensure the minimum is an integer
+  max = Math.floor(max); // Ensure the maximum is an integer
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
