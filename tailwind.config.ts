@@ -16,6 +16,9 @@ const config: Config = {
       "color-blue": "#06283D",
       "color-white": "#ffffff",
       "color-gold": "rgba(210, 183, 116, 1)",
+      "color-red": "#ff6b6b",
+      "color-border": "rgba(0, 0, 0, .3)",
+      "color-black": "rgba(0, 0, 0, 1)",
     },
     extend: {
       backgroundImage: {

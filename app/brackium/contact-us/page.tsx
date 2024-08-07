@@ -1,0 +1,9 @@
+"use client";
+import Contact from "@/components/contact-us/Contact";
+import React from "react";
+
+const page = () => {
+  return <Contact />;
+};
+
+export default page;

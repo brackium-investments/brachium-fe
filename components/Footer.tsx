@@ -50,7 +50,7 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div className="w-full bg-color-blue flex items-center justify-center py-[2rem]">
+      <div className="w-full bg-color-blue flex items-center justify-center py-[2rem] rounded-xl">
         <p className="text-color-gold">Brackium Investments &copy; 2023</p>
       </div>
     </footer>

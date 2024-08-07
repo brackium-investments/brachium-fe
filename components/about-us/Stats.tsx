@@ -20,12 +20,12 @@ const Stats = () => {
       },
       {
         title: "Recent Deposits",
-        value: modifyNum(`$ ${getRandomInt(20000, 30000)}`),
+        value: `$ ${modifyNum(`${getRandomInt(20000, 30000)}`)}`,
         icon: <GiWallet className={iconStyle} />,
       },
       {
         title: "Recent Withdrawals",
-        value: modifyNum(`$ ${getRandomInt(10000, 15000)}`),
+        value: `$ ${modifyNum(`${getRandomInt(10000, 15000)}`)}`,
         icon: <BsCashCoin className={iconStyle} />,
       },
       {
