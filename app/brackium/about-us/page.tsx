@@ -1,7 +1,9 @@
+"use client";
+import About from "@/components/about-us/About";
 import React from "react";
 
 const page = () => {
-  return <div>about</div>;
+  return <About />;
 };
 
 export default page;

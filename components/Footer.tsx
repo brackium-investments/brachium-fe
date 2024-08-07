@@ -51,7 +51,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="w-full bg-color-blue flex items-center justify-center py-[2rem]">
-        <p className="text-color-white">Brackium Investments &copy; 2023</p>
+        <p className="text-color-gold">Brackium Investments &copy; 2023</p>
       </div>
     </footer>
   );

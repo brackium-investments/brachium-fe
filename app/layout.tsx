@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { DM_Sans, Inter, Nunito } from "next/font/google";
 import "./globals.css";
+import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -8,6 +9,17 @@ export const metadata: Metadata = {
   title: "Brackium Investments",
   description: "Manage your financial assets with Brackium",
 };
+const nunito: NextFontWithVariable = Nunito({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-nunito",
+});
+
+const dmSans: NextFontWithVariable = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-nunito",
+});
 
 export default function RootLayout({
   children,
@@ -16,7 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={` ${nunito.variable} ${dmSans.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

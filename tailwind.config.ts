@@ -21,6 +21,7 @@ const config: Config = {
       backgroundImage: {
         header: "url('../assets/header-bg.jpeg')",
         footer: "url('../assets/footer-bg.jpeg')",
+        about: "url('../assets/about.jpeg')",
         "main-1": "url('../assets/plan-bg1.jpeg')",
       },
       gridTemplateColumns: {
