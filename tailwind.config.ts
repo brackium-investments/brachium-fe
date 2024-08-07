@@ -14,6 +14,7 @@ const config: Config = {
     colors: {
       "color-transparent": "transparent",
       "color-blue": "#06283D",
+      "color-light-blue": "rgba(6, 40, 61, .3)",
       "color-white": "#ffffff",
       "color-gold": "rgba(210, 183, 116, 1)",
       "color-red": "#ff6b6b",
