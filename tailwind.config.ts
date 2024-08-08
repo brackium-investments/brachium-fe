@@ -21,6 +21,15 @@ const config: Config = {
       "color-border": "rgba(0, 0, 0, .3)",
       "color-black": "rgba(0, 0, 0, 1)",
     },
+    listStyleType: {
+      none: "none",
+      disc: "disc",
+      decimal: "decimal",
+      square: "square",
+      upperRoman: "upper-roman",
+      upperAlpha: "upper-alpha",
+      lowerAlpha: "lower-alpha",
+    },
     extend: {
       backgroundImage: {
         header: "url('../assets/header-bg.jpeg')",

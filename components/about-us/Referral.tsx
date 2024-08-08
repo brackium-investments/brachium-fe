@@ -12,11 +12,11 @@ const Referral = () => {
         At Brackium, our referral program rewards clients for sharing their
         positive experiences with others. By referring new clients to our
         services, you can earn between 5% and 40% of the referred client's
-        investment, depending on the investment amount. This tiered system
-        ensures that the more your referrals invest, the higher your earnings.
-        It's our way of saying thank you for helping us grow our community of
-        satisfied investors. Join our referral program today and start earning
-        while helping others achieve their financial goals with Brackium.
+        investment, depending on the investment plan. This tiered system ensures
+        that the more your referrals invest, the higher your earnings. It's our
+        way of saying thank you for helping us grow our community of satisfied
+        investors. Join our referral program today and start earning while
+        helping others achieve their financial goals with Brackium.
       </p>
     </div>
   );
