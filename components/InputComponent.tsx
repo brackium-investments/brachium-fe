@@ -23,6 +23,7 @@ type InputProps = {
   my?: string;
   inputBg?: string;
   min?: number;
+  borderColor?: string;
 };
 
 const InputComponent: React.FC<InputProps> = (props) => {
@@ -37,7 +38,9 @@ const InputComponent: React.FC<InputProps> = (props) => {
       props.error[props.name] &&
       props.error[props.name].message
       ? "text-color-red border-color-red"
-      : "border-color-border text-color-black";
+      : `${
+          props.borderColor ? props.borderColor : "border-color-border"
+        }  text-color-black`;
   };
 
   const getPasswordIcon = (): React.ReactNode => {

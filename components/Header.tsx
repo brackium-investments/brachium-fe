@@ -40,12 +40,12 @@ const Header = () => {
             ))}
           </ul>
           <div className="flex items-center ml-[4rem]">
-            <button
-              type="button"
+            <Link
+              href={"/brackium/login"}
               className="mr-[1.5rem] border border-color-gold text-color-gold px-[1rem] py-[0.5rem] rounded-lg text-[1.7rem] hover:text-color-white hover:bg-color-gold transition-all duration-150 ease-in"
             >
               Login
-            </button>
+            </Link>
             <button
               type="button"
               className="border border-color-gold text-color-white bg-color-gold rounded-lg px-[1rem] py-[0.5rem] text-[1.7rem] hover:text-color-gold hover:bg-color-transparent transition-all duration-150 ease-in"
