@@ -1,23 +1,22 @@
 "use client";
-import React from "react";
-import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const ContactUsMap = () => {
-  const position: any = [31.9686, 99.9018];
-
   return (
     <div className="w-[70%] mx-auto h-[80rem]  overflow-hidden mt-[10rem] mb-[8rem]">
-      <MapContainer center={position} zoom={12} scrollWheelZoom={false}>
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      <div className="border border-color-blue rounded-xl p-[1rem]">
+        <Image
+          src={`
+         https://maps.geoapify.com/v1/staticmap?style=osm-bright&width=600&height=400&center=lonlat:-122.304378,47.526022&zoom=14&marker=lonlat:-122.304378,47.526022;color:%2306283d;size:small&scaleFactor=2&apiKey=${process.env.NEXT_PUBLIC_GEOAPIFY_KEY}
+          `}
+          alt="map"
+          priority
+          width={2600}
+          height={2600}
+          className="w-full h-full rounded-xl"
         />
-        <Marker position={position}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
-      </MapContainer>
+      </div>
     </div>
   );
 };
